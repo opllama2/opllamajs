@@ -1,0 +1,15 @@
+name: Opllamajs Workflow
+on:
+  push:
+    branches:
+      - master
+
+jobs: 
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: ls
+
+
