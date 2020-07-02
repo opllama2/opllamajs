@@ -13,6 +13,11 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '12'
+      - uses: oleksiyrudenko/gha-git-credentials@v1
+        with:
+          name: Ali Hassan
+          email: opllama2@gmail.com
+          token: ${{ secrets.GH_TOKEN }}
       - run: npm ci && npm i -g lerna
       - run: npm run build
       - run: lerna publish --yes --registry https://registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
