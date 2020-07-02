@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run: ls
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - run: npm install
+      - run: echo https://registry.npmjs.org/:_authToken=${secrets.NPM_TOKEN}
+      # - run: npm run build
+      # - run: lerna publish --yes --registry https://registry.npmjs.org/:_authToken=${secrets.NPM_TOKEN}
 
 
