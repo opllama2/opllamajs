@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.7 (2020-07-02)
+
+
+### Bug Fixes
+
+* removing fixed registry ([92624e7](https://github.com/opllama2/opllamajs/commit/92624e70c041dc9fea58f7ae0f65ad07119e1031))
+
+
+
+
+
 ## [0.0.6](https://github.com/opllama2/opllamajs/compare/v0.0.5...v0.0.6) (2020-07-02)
 
 
