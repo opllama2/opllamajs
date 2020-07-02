@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/opllama2/opllamajs/compare/v0.0.4...v0.0.5) (2020-07-02)
+
+
+### Bug Fixes
+
+* triggering a version bump ([28b7cf4](https://github.com/opllama2/opllamajs/commit/28b7cf4fa4e2fd07150d8457d88b2af688964f8d))
+
+
+
+
+
 ## [0.0.4](https://github.com/opllama2/opllamajs/compare/v0.0.3...v0.0.4) (2020-07-02)
 
 
