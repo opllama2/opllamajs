@@ -20,4 +20,5 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
       - run: npm ci && npm i -g lerna
       - run: npm run build
-      - run: lerna publish --yes --registry https://registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
+      - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ./.npmrc
+      - run: lerna publish --yes
