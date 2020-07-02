@@ -1,6 +1,6 @@
 {
   "name": "@opllama.js/validator",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A validator class for inputs",
   "author": "Ali Hassan <opllama2@gmail.com>",
   "homepage": "https://github.com/opllama2/opllamajs#readme",
