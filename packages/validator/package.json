@@ -1,11 +1,15 @@
 {
   "name": "@opllama.js/validator",
   "version": "0.0.5",
-  "description": "> TODO: description",
+  "description": "A validator class for inputs",
   "author": "Ali Hassan <opllama2@gmail.com>",
   "homepage": "https://github.com/opllama2/opllamajs#readme",
   "license": "ISC",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -24,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/opllama2/opllamajs/issues"
   },
-  "gitHead": "222037d070234e8098ff4eac03e4c727bbd88a5b"
+  "gitHead": "17288d343b2fc77594d3fd01ad60feaffbe32791"
 }
