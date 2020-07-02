@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/opllama2/opllamajs/compare/v0.0.5...v0.0.6) (2020-07-02)
+
+
+### Bug Fixes
+
+* fixing access to package and add typings ([1adffa5](https://github.com/opllama2/opllamajs/commit/1adffa5ae943a2288fcb3e222fce0f4ff54b7c2e))
+
+
+
+
+
 ## [0.0.5](https://github.com/opllama2/opllamajs/compare/v0.0.4...v0.0.5) (2020-07-02)
 
 
